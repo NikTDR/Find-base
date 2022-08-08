@@ -1,0 +1,2 @@
+PORT=3001
+DB_URL=postgres://admindb:admindb@localhost:5432/FindBase

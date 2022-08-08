@@ -1,0 +1,13 @@
+.docCreate{
+  display: flex;
+  flex-direction: row;
+}
+
+.docSort{
+  display: flex;
+  flex-direction: row;
+}
+
+.mainSearch{
+  width: 100%;
+}

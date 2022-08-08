@@ -17,7 +17,7 @@ function find(){
     <div>
         {findParams.map((el,index)=>
       <Accordion  key={new Date().getTime()+Math.random()}>
-          <AccordionSummary className={styles.mainName}
+          <AccordionSummary sx={{ backgroundColor: 'darkseagreen',marginBottom: '9px' }} className={styles.mainName}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"

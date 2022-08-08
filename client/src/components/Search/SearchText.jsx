@@ -55,7 +55,7 @@ export default function BasicTextFields() {
     <Box
    
       sx={{
-        '& > :not(style)': { m: 1 },
+        '& > :not(style)': { },
       }}
       noValidate
       autoComplete="off"
